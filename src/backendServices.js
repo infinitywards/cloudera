@@ -8,7 +8,7 @@ formdata.append('message', data.message)
 
 return axios({
     method: 'post',
-    url: 'http://127.0.0.1:8000/sendsms',
+    url: 'https://flame-backend.onrender.com/sendsms',
     data:formdata
   }).then((res)=>{
     console.log("response : ",res.data)
