@@ -38,9 +38,9 @@ class App extends React.Component{
           <form method="post">
             <h2 className="sr-only">Flame</h2>
             <div className="illustration"><i className="icon ion-ios-navigate" /></div>
-            <div className="form-group"><input className="form-control" type="textarea" id="msg" placeholder="Enter Your Message" onchange={this.handleMsgChange} /></div>
-            <div className="form-group"><input type="file" id="uploadedFile" name="uploadedFile" onchange={this.handleFileChange} /></div>
-            <div className="form-group"><button className="btn btn-primary btn-block" type="submit" name="submit" value="SUBMIT" onclick={this.serve_uploadExcelAndMessage}>Send</button></div><a className="forgot" href="#">Copyright - Stark</a></form>
+            <div className="form-group"><input className="form-control" type="textarea" id="msg" placeholder="Enter Your Message" onChange={this.handleMsgChange} /></div>
+            <div className="form-group"><input type="file" id="uploadedFile" name="uploadedFile" onChange={this.handleFileChange} /></div>
+            <div className="form-group"><button className="btn btn-primary btn-block" type="submit" name="submit" value="SUBMIT" onClick={this.serve_uploadExcelAndMessage}>Send</button></div><a className="forgot" href="#">Copyright - Stark</a></form>
         </div>
       </div>
     ) 
